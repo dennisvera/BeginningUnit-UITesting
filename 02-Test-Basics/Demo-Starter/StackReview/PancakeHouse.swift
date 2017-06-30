@@ -27,6 +27,7 @@ public struct PancakeHouse {
   
   // MARK: - Instance Properties
   
+    
   public let name: String
   public let photo: UIImage?
   public let thumbnail: UIImage?
