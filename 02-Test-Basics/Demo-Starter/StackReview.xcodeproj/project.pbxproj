@@ -27,7 +27,19 @@
 		42AFF7421D9868CF00DF841D /* CloudNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFF7411D9868CF00DF841D /* CloudNetworkManager.swift */; };
 		42AFF7451D98696300DF841D /* CloudNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFF7441D98696300DF841D /* CloudNetworkError.swift */; };
 		787C1FC91BB3AC5E000B7EA1 /* PancakeHouseCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C1FC81BB3AC5E000B7EA1 /* PancakeHouseCollection.swift */; };
+		E1F8E9BA1F082681004E1223 /* PancakeHouseCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8E9B91F082681004E1223 /* PancakeHouseCollectionTests.swift */; };
+		E1F8E9BC1F08289A004E1223 /* test_pancake_houses.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1F8E9BB1F08289A004E1223 /* test_pancake_houses.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1F8E9B11F08239D004E1223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A7E5621B3AE0E600F269A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A7E5691B3AE0E600F269A3;
+			remoteInfo = StackReview;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		22228A6C1B43EB0D009DB1C2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -52,10 +64,21 @@
 		42AFF7411D9868CF00DF841D /* CloudNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudNetworkManager.swift; sourceTree = "<group>"; };
 		42AFF7441D98696300DF841D /* CloudNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudNetworkError.swift; sourceTree = "<group>"; };
 		787C1FC81BB3AC5E000B7EA1 /* PancakeHouseCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PancakeHouseCollection.swift; sourceTree = "<group>"; };
+		E1F8E9AC1F08239C004E1223 /* StackReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F8E9B01F08239D004E1223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F8E9B91F082681004E1223 /* PancakeHouseCollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PancakeHouseCollectionTests.swift; sourceTree = "<group>"; };
+		E1F8E9BB1F08289A004E1223 /* test_pancake_houses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = test_pancake_houses.plist; path = Resources/test_pancake_houses.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22A7E5671B3AE0E600F269A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F8E9A91F08239B004E1223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				22A7E56C1B3AE0E600F269A3 /* StackReview */,
+				E1F8E9AD1F08239D004E1223 /* StackReviewTests */,
 				22A7E56B1B3AE0E600F269A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				22A7E56A1B3AE0E600F269A3 /* StackReview.app */,
+				E1F8E9AC1F08239C004E1223 /* StackReviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +198,40 @@
 			name = Networking;
 			sourceTree = "<group>";
 		};
+		E1F8E9AD1F08239D004E1223 /* StackReviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8E9B61F08255B004E1223 /* Cases */,
+				E1F8E9B71F082564004E1223 /* Data */,
+				E1F8E9B81F08256B004E1223 /* Supporting Files */,
+			);
+			path = StackReviewTests;
+			sourceTree = "<group>";
+		};
+		E1F8E9B61F08255B004E1223 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8E9B91F082681004E1223 /* PancakeHouseCollectionTests.swift */,
+			);
+			name = Cases;
+			sourceTree = "<group>";
+		};
+		E1F8E9B71F082564004E1223 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8E9BB1F08289A004E1223 /* test_pancake_houses.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		E1F8E9B81F08256B004E1223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8E9B01F08239D004E1223 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,19 +252,45 @@
 			productReference = 22A7E56A1B3AE0E600F269A3 /* StackReview.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E1F8E9AB1F08239B004E1223 /* StackReviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F8E9B31F08239E004E1223 /* Build configuration list for PBXNativeTarget "StackReviewTests" */;
+			buildPhases = (
+				E1F8E9A81F08239B004E1223 /* Sources */,
+				E1F8E9A91F08239B004E1223 /* Frameworks */,
+				E1F8E9AA1F08239B004E1223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1F8E9B21F08239D004E1223 /* PBXTargetDependency */,
+			);
+			name = StackReviewTests;
+			productName = StackReviewTests;
+			productReference = E1F8E9AC1F08239C004E1223 /* StackReviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		22A7E5621B3AE0E600F269A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
 					22A7E5691B3AE0E600F269A3 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = K24N6NL7FA;
 						LastSwiftMigration = 0800;
+					};
+					E1F8E9AB1F08239B004E1223 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = K24N6NL7FA;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22A7E5691B3AE0E600F269A3;
 					};
 				};
 			};
@@ -223,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				22A7E5691B3AE0E600F269A3 /* StackReview */,
+				E1F8E9AB1F08239B004E1223 /* StackReviewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +323,14 @@
 				22A7E5771B3AE0E600F269A3 /* Assets.xcassets in Resources */,
 				22A7E5751B3AE0E600F269A3 /* Main.storyboard in Resources */,
 				22A7E5851B3AFFFD00F269A3 /* pancake_houses.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F8E9AA1F08239B004E1223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F8E9BC1F08289A004E1223 /* test_pancake_houses.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +359,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1F8E9A81F08239B004E1223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F8E9BA1F082681004E1223 /* PancakeHouseCollectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1F8E9B21F08239D004E1223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A7E5691B3AE0E600F269A3 /* StackReview */;
+			targetProxy = E1F8E9B11F08239D004E1223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22A7E5731B3AE0E600F269A3 /* Main.storyboard */ = {
@@ -379,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
 				INFOPLIST_FILE = StackReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StackReview;
@@ -391,11 +502,52 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
 				INFOPLIST_FILE = StackReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StackReview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E1F8E9B41F08239E004E1223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = StackReviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisv.StackReviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackReview.app/StackReview";
+			};
+			name = Debug;
+		};
+		E1F8E9B51F08239E004E1223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = StackReviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisv.StackReviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackReview.app/StackReview";
 			};
 			name = Release;
 		};
@@ -419,6 +571,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E1F8E9B31F08239E004E1223 /* Build configuration list for PBXNativeTarget "StackReviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F8E9B41F08239E004E1223 /* Debug */,
+				E1F8E9B51F08239E004E1223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

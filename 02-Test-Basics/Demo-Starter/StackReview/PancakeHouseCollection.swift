@@ -117,6 +117,7 @@ public class PancakeHouseCollection {
   /// - parameter pancakeHouse: The pancake house to be added
   public func addPancakeHouse(_ pancakeHouse: PancakeHouse) {
     _pancakeHouses.append(pancakeHouse)
+    
   }
   
   /// @brief  Use this method to remove a pancake house from the collection.
