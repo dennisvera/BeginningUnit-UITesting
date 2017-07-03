@@ -21,7 +21,7 @@ class PancakeHouseCollectionIntegrationTests: XCTestCase {
     
     func testLoadPancakesFromCloudFails() {
         
-        /// given
+        // given
         let expectation = self.expectation(description: "Expected load pancakes from cloud to fail")
         
         // when
