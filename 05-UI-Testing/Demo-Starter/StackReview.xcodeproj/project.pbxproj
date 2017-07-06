@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0C5F771F0DAC3F00F013CC /* StackReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C5F761F0DAC3F00F013CC /* StackReviewUITests.swift */; };
 		22228A6D1B43EB0D009DB1C2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22228A6C1B43EB0D009DB1C2 /* Colors.swift */; };
 		222BD2B01B3C3CE900A85BE7 /* MultilineLabelThatWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BD2AF1B3C3CE900A85BE7 /* MultilineLabelThatWorks.swift */; };
 		222BD2B21B3C4DE400A85BE7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BD2B11B3C4DE400A85BE7 /* AboutViewController.swift */; };
@@ -36,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B0C5F791F0DAC3F00F013CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A7E5621B3AE0E600F269A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A7E5691B3AE0E600F269A3;
+			remoteInfo = StackReview;
+		};
 		4265E6D91DCD8F030033802D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 22A7E5621B3AE0E600F269A3 /* Project object */;
@@ -53,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0C5F741F0DAC3F00F013CC /* StackReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0C5F761F0DAC3F00F013CC /* StackReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackReviewUITests.swift; sourceTree = "<group>"; };
+		1B0C5F781F0DAC3F00F013CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22228A6C1B43EB0D009DB1C2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		222BD2AF1B3C3CE900A85BE7 /* MultilineLabelThatWorks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineLabelThatWorks.swift; sourceTree = "<group>"; };
 		222BD2B11B3C4DE400A85BE7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +98,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B0C5F711F0DAC3F00F013CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22A7E5671B3AE0E600F269A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0C5F751F0DAC3F00F013CC /* StackReviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0C5F761F0DAC3F00F013CC /* StackReviewUITests.swift */,
+				1B0C5F781F0DAC3F00F013CC /* Info.plist */,
+			);
+			path = StackReviewUITests;
+			sourceTree = "<group>";
+		};
 		22228A6B1B43EAFB009DB1C2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +152,7 @@
 				22A7E56C1B3AE0E600F269A3 /* StackReview */,
 				4265E6D51DCD8F030033802D /* StackReviewTests */,
 				42F6F4971DCDA431003A2FA6 /* StackReviewIntegrationTests */,
+				1B0C5F751F0DAC3F00F013CC /* StackReviewUITests */,
 				22A7E56B1B3AE0E600F269A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,6 +163,7 @@
 				22A7E56A1B3AE0E600F269A3 /* StackReview.app */,
 				4265E6D41DCD8F030033802D /* StackReviewTests.xctest */,
 				42F6F4961DCDA431003A2FA6 /* StackReviewIntegrationTests.xctest */,
+				1B0C5F741F0DAC3F00F013CC /* StackReviewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,6 +324,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B0C5F731F0DAC3F00F013CC /* StackReviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0C5F7B1F0DAC3F00F013CC /* Build configuration list for PBXNativeTarget "StackReviewUITests" */;
+			buildPhases = (
+				1B0C5F701F0DAC3F00F013CC /* Sources */,
+				1B0C5F711F0DAC3F00F013CC /* Frameworks */,
+				1B0C5F721F0DAC3F00F013CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0C5F7A1F0DAC3F00F013CC /* PBXTargetDependency */,
+			);
+			name = StackReviewUITests;
+			productName = StackReviewUITests;
+			productReference = 1B0C5F741F0DAC3F00F013CC /* StackReviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		22A7E5691B3AE0E600F269A3 /* StackReview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A7E57E1B3AE0E600F269A3 /* Build configuration list for PBXNativeTarget "StackReview" */;
@@ -358,8 +405,15 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
+					1B0C5F731F0DAC3F00F013CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K24N6NL7FA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22A7E5691B3AE0E600F269A3;
+					};
 					22A7E5691B3AE0E600F269A3 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = K24N6NL7FA;
 						LastSwiftMigration = 0800;
 					};
 					4265E6D31DCD8F030033802D = {
@@ -392,11 +446,19 @@
 				22A7E5691B3AE0E600F269A3 /* StackReview */,
 				4265E6D31DCD8F030033802D /* StackReviewTests */,
 				42F6F4951DCDA431003A2FA6 /* StackReviewIntegrationTests */,
+				1B0C5F731F0DAC3F00F013CC /* StackReviewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B0C5F721F0DAC3F00F013CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22A7E5681B3AE0E600F269A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +490,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B0C5F701F0DAC3F00F013CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0C5F771F0DAC3F00F013CC /* StackReviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22A7E5661B3AE0E600F269A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +541,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1B0C5F7A1F0DAC3F00F013CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A7E5691B3AE0E600F269A3 /* StackReview */;
+			targetProxy = 1B0C5F791F0DAC3F00F013CC /* PBXContainerItemProxy */;
+		};
 		4265E6DA1DCD8F030033802D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 22A7E5691B3AE0E600F269A3 /* StackReview */;
@@ -503,6 +578,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B0C5F7C1F0DAC3F00F013CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = StackReviewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisvera.StackReviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StackReview;
+			};
+			name = Debug;
+		};
+		1B0C5F7D1F0DAC3F00F013CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = StackReviewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisvera.StackReviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StackReview;
+			};
+			name = Release;
+		};
 		22A7E57C1B3AE0E600F269A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -595,6 +705,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
 				INFOPLIST_FILE = StackReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StackReview;
@@ -607,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
 				INFOPLIST_FILE = StackReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StackReview;
@@ -694,6 +806,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B0C5F7B1F0DAC3F00F013CC /* Build configuration list for PBXNativeTarget "StackReviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0C5F7C1F0DAC3F00F013CC /* Debug */,
+				1B0C5F7D1F0DAC3F00F013CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		22A7E5651B3AE0E600F269A3 /* Build configuration list for PBXProject "StackReview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
